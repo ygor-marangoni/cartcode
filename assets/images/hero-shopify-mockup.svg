@@ -1,0 +1,40 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup de loja Shopify Cart &amp; Code</title>
+  <desc id="desc">Interface conceitual de e-commerce com painel, produto e checkout.</desc>
+  <rect width="1200" height="700" rx="36" fill="#0C1212"/>
+  <rect x="42" y="42" width="1116" height="616" rx="28" fill="#FBFDFA"/>
+  <rect x="42" y="42" width="1116" height="70" rx="28" fill="#F7FDFE"/>
+  <circle cx="82" cy="77" r="8" fill="#A9D063"/>
+  <circle cx="110" cy="77" r="8" fill="#D0F19B"/>
+  <circle cx="138" cy="77" r="8" fill="#476135"/>
+  <rect x="915" y="65" width="160" height="24" rx="12" fill="#0C1212"/>
+  <rect x="90" y="154" width="380" height="440" rx="28" fill="#0C1212"/>
+  <rect x="130" y="196" width="210" height="16" rx="8" fill="#D0F19B"/>
+  <rect x="130" y="228" width="278" height="46" rx="10" fill="#FBFDFA" fill-opacity=".15"/>
+  <rect x="130" y="304" width="280" height="240" rx="24" fill="url(#productGradient)"/>
+  <circle cx="270" cy="424" r="64" fill="#FBFDFA" fill-opacity=".2"/>
+  <path d="M246 431c20 17 47 17 68 0" stroke="#0C1212" stroke-width="12" stroke-linecap="round"/>
+  <rect x="520" y="154" width="270" height="196" rx="24" fill="#F3FAEA"/>
+  <rect x="550" y="186" width="120" height="14" rx="7" fill="#243917"/>
+  <rect x="550" y="222" width="200" height="12" rx="6" fill="#476135" opacity=".35"/>
+  <rect x="550" y="250" width="164" height="12" rx="6" fill="#476135" opacity=".25"/>
+  <rect x="550" y="292" width="96" height="34" rx="17" fill="#0C1212"/>
+  <rect x="825" y="154" width="260" height="440" rx="24" fill="#0C1212"/>
+  <rect x="856" y="190" width="120" height="14" rx="7" fill="#D0F19B"/>
+  <rect x="856" y="230" width="198" height="54" rx="14" fill="#FBFDFA" fill-opacity=".1"/>
+  <rect x="856" y="306" width="198" height="54" rx="14" fill="#FBFDFA" fill-opacity=".1"/>
+  <rect x="856" y="382" width="198" height="54" rx="14" fill="#FBFDFA" fill-opacity=".1"/>
+  <rect x="856" y="500" width="198" height="44" rx="22" fill="#A9D063"/>
+  <rect x="520" y="390" width="270" height="204" rx="24" fill="#FBFDFA" stroke="#DDEBC9" stroke-width="2"/>
+  <rect x="550" y="420" width="178" height="12" rx="6" fill="#243917"/>
+  <path d="M552 538c38-72 72-98 109-74 33 21 48 4 89-54" stroke="#A9D063" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="552" cy="538" r="8" fill="#243917"/>
+  <circle cx="661" cy="464" r="8" fill="#243917"/>
+  <circle cx="750" cy="410" r="8" fill="#243917"/>
+  <defs>
+    <linearGradient id="productGradient" x1="130" y1="304" x2="410" y2="544" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D0F19B"/>
+      <stop offset="1" stop-color="#476135"/>
+    </linearGradient>
+  </defs>
+</svg>

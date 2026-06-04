@@ -1,0 +1,26 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard de e-commerce</title>
+  <desc id="desc">Painel conceitual com métricas de loja, performance e conversão.</desc>
+  <rect width="900" height="640" rx="34" fill="#0C1212"/>
+  <rect x="34" y="34" width="832" height="572" rx="28" fill="#FBFDFA"/>
+  <rect x="70" y="74" width="188" height="492" rx="22" fill="#0C1212"/>
+  <rect x="100" y="112" width="92" height="14" rx="7" fill="#D0F19B"/>
+  <rect x="100" y="164" width="118" height="12" rx="6" fill="#FBFDFA" fill-opacity=".34"/>
+  <rect x="100" y="204" width="98" height="12" rx="6" fill="#FBFDFA" fill-opacity=".2"/>
+  <rect x="100" y="244" width="128" height="12" rx="6" fill="#FBFDFA" fill-opacity=".2"/>
+  <rect x="296" y="74" width="526" height="84" rx="24" fill="#F2FAE6"/>
+  <rect x="330" y="104" width="192" height="14" rx="7" fill="#243917"/>
+  <rect x="330" y="130" width="306" height="10" rx="5" fill="#476135" opacity=".32"/>
+  <rect x="296" y="190" width="160" height="122" rx="22" fill="#FBFDFA" stroke="#DDEBC9" stroke-width="2"/>
+  <rect x="486" y="190" width="160" height="122" rx="22" fill="#FBFDFA" stroke="#DDEBC9" stroke-width="2"/>
+  <rect x="676" y="190" width="146" height="122" rx="22" fill="#0C1212"/>
+  <rect x="326" y="224" width="74" height="12" rx="6" fill="#476135"/>
+  <rect x="326" y="252" width="94" height="28" rx="14" fill="#D0F19B"/>
+  <rect x="516" y="224" width="74" height="12" rx="6" fill="#476135"/>
+  <rect x="516" y="252" width="94" height="28" rx="14" fill="#A9D063"/>
+  <rect x="706" y="224" width="72" height="12" rx="6" fill="#D0F19B"/>
+  <rect x="706" y="252" width="78" height="28" rx="14" fill="#FBFDFA"/>
+  <rect x="296" y="346" width="526" height="220" rx="26" fill="#FBFDFA" stroke="#DDEBC9" stroke-width="2"/>
+  <path d="M338 516c43-88 83-118 126-84 52 41 83-24 131-74 41-42 74 10 166-70" stroke="#A9D063" stroke-width="14" stroke-linecap="round"/>
+  <path d="M338 516c43-42 83-52 126-31 52 26 83-12 131-38 41-22 74 6 166-34" stroke="#476135" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+</svg>

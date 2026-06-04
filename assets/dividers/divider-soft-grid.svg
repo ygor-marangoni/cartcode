@@ -1,0 +1,9 @@
+<svg width="1440" height="120" viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <rect width="1440" height="120" fill="#0C1212"/>
+  <path d="M0 84h1440v36H0V84Z" fill="#F7FDFE"/>
+  <g opacity=".22" stroke="#A9D063" stroke-width="1">
+    <path d="M0 24h1440M0 48h1440M0 72h1440"/>
+    <path d="M80 0v84M200 0v84M320 0v84M440 0v84M560 0v84M680 0v84M800 0v84M920 0v84M1040 0v84M1160 0v84M1280 0v84M1400 0v84"/>
+  </g>
+  <path d="M0 70c170-18 319-22 448-12 192 15 307 54 504 47 153-5 298-38 488-60v39H0V70Z" fill="#F7FDFE"/>
+</svg>

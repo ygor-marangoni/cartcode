@@ -1,0 +1,21 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Legy - moda fitness</title>
+  <desc id="desc">Conceito de e-commerce de moda fitness com vitrine e cards de produto.</desc>
+  <rect width="900" height="620" rx="34" fill="#FBFDFA"/>
+  <rect x="54" y="54" width="792" height="512" rx="28" fill="#0C1212"/>
+  <rect x="96" y="96" width="320" height="360" rx="28" fill="url(#legy)"/>
+  <rect x="462" y="104" width="210" height="18" rx="9" fill="#D0F19B"/>
+  <rect x="462" y="146" width="302" height="12" rx="6" fill="#FBFDFA" fill-opacity=".34"/>
+  <rect x="462" y="174" width="250" height="12" rx="6" fill="#FBFDFA" fill-opacity=".2"/>
+  <rect x="462" y="232" width="130" height="42" rx="21" fill="#A9D063"/>
+  <rect x="462" y="338" width="112" height="142" rx="18" fill="#FBFDFA" fill-opacity=".12"/>
+  <rect x="598" y="338" width="112" height="142" rx="18" fill="#FBFDFA" fill-opacity=".12"/>
+  <rect x="734" y="338" width="70" height="142" rx="18" fill="#FBFDFA" fill-opacity=".12"/>
+  <defs>
+    <linearGradient id="legy" x1="96" y1="96" x2="416" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FDFE"/>
+      <stop offset=".45" stop-color="#D0F19B"/>
+      <stop offset="1" stop-color="#476135"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,149 @@
+.store-types {
+  padding: 96px 0 110px;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(169, 208, 99, 0.18), transparent 24rem),
+    var(--soft-white);
+}
+
+.store-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.store-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  gap: 24px;
+  align-items: stretch;
+  padding: 22px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--line);
+}
+
+.store-profile-copy {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.store-profile h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.35rem, 2vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.store-profile p {
+  margin: 0 0 24px;
+  max-width: 560px;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.store-mock {
+  min-height: 250px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(36, 57, 23, 0.12);
+}
+
+.mini-store,
+.mini-product,
+.mini-liquid,
+.mini-ops {
+  position: relative;
+  background: var(--dark);
+}
+
+.store-mock::before,
+.store-mock::after {
+  content: "";
+  position: absolute;
+  border-radius: 18px;
+}
+
+.mini-store::before {
+  inset: 28px 34px 112px;
+  background: linear-gradient(135deg, var(--lime-light), var(--green-mid));
+}
+
+.mini-store::after {
+  left: 34px;
+  right: 34px;
+  bottom: 34px;
+  height: 72px;
+  background:
+    linear-gradient(90deg, rgba(251, 253, 250, 0.18) 0 28%, transparent 28% 34%, rgba(251, 253, 250, 0.18) 34% 64%, transparent 64% 70%, rgba(251, 253, 250, 0.18) 70%);
+}
+
+.mini-product::before {
+  top: 32px;
+  left: 34px;
+  width: 42%;
+  bottom: 34px;
+  background: linear-gradient(135deg, #f7fdfe, var(--lime));
+}
+
+.mini-product::after {
+  top: 46px;
+  right: 34px;
+  width: 38%;
+  height: 170px;
+  background:
+    linear-gradient(var(--lime-light), var(--lime-light)) 0 0 / 70% 14px no-repeat,
+    linear-gradient(rgba(251, 253, 250, 0.18), rgba(251, 253, 250, 0.18)) 0 44px / 100% 12px no-repeat,
+    linear-gradient(rgba(251, 253, 250, 0.12), rgba(251, 253, 250, 0.12)) 0 76px / 80% 12px no-repeat,
+    linear-gradient(var(--lime), var(--lime)) 0 132px / 58% 38px no-repeat;
+}
+
+.mini-liquid::before {
+  inset: 30px;
+  background:
+    linear-gradient(rgba(208, 241, 155, 0.9), rgba(208, 241, 155, 0.9)) 28px 34px / 44% 12px no-repeat,
+    linear-gradient(rgba(251, 253, 250, 0.2), rgba(251, 253, 250, 0.2)) 28px 76px / 70% 10px no-repeat,
+    linear-gradient(rgba(251, 253, 250, 0.16), rgba(251, 253, 250, 0.16)) 28px 110px / 58% 10px no-repeat,
+    linear-gradient(rgba(169, 208, 99, 0.26), rgba(169, 208, 99, 0.26));
+}
+
+.mini-liquid::after {
+  inset: auto 30px 30px;
+  height: 58px;
+  background: rgba(251, 253, 250, 0.12);
+}
+
+.mini-ops::before {
+  inset: 34px 34px 122px;
+  background:
+    radial-gradient(circle at 18% 64%, var(--lime) 0 7px, transparent 8px),
+    radial-gradient(circle at 48% 28%, var(--lime-light) 0 7px, transparent 8px),
+    radial-gradient(circle at 82% 48%, var(--green-mid) 0 7px, transparent 8px),
+    linear-gradient(135deg, rgba(251, 253, 250, 0.15), rgba(169, 208, 99, 0.16));
+}
+
+.mini-ops::after {
+  left: 34px;
+  right: 34px;
+  bottom: 34px;
+  height: 76px;
+  background:
+    linear-gradient(90deg, var(--lime) 0 52%, rgba(251, 253, 250, 0.14) 52% 100%);
+}
+
+@media (max-width: 860px) {
+  .store-types {
+    padding: 72px 0;
+  }
+
+  .store-profile {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .store-profile-copy {
+    padding: 10px;
+  }
+}
