@@ -308,7 +308,8 @@ i[data-lucide] {
     background: var(--dark);
 }
 
-.section-divider-process::before {
+.section-divider-process::before,
+.section-divider-moments-out::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -322,10 +323,19 @@ i[data-lucide] {
     mask-image: radial-gradient(circle at 50% 100%, #000, transparent 68%);
 }
 
-.section-divider-process .section-divider {
+.section-divider-process .section-divider,
+.section-divider-moments-out .section-divider {
     position: relative;
     z-index: 1;
     height: 72px;
+}
+
+.section-divider-moments-out {
+    background: var(--dark);
+}
+
+.section-divider-moments-out .section-divider {
+    transform: scaleX(-1);
 }
 
 .section-divider-process-out {
@@ -398,7 +408,8 @@ i[data-lucide] {
         height: 68px;
     }
 
-    .section-divider-process .section-divider {
+    .section-divider-process .section-divider,
+    .section-divider-moments-out .section-divider {
         height: 54px;
     }
 

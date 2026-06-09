@@ -41,7 +41,6 @@
         <link rel="stylesheet" href="css/sections/solutions.css" />
         <link rel="stylesheet" href="css/sections/store-types.css" />
         <link rel="stylesheet" href="css/sections/audience.css" />
-        <link rel="stylesheet" href="css/sections/projects.css" />
         <link rel="stylesheet" href="css/sections/plans.css" />
         <link rel="stylesheet" href="css/sections/faq.css" />
         <link rel="stylesheet" href="css/sections/final-cta.css" />
@@ -1150,288 +1149,551 @@
                 </div>
             </section>
 
-            <section class="store-types" aria-labelledby="store-types-title">
-                <div class="container">
-                    <div class="section-heading center" data-reveal>
-                        <span class="eyebrow">Estratégia por momento</span>
-                        <h2 id="store-types-title">
-                            Cada loja tem um gargalo. A Cart &amp; Code resolve
-                            com estratégia.
-                        </h2>
-                        <p>
-                            Do lançamento à otimização, cada projeto é pensado
-                            de acordo com o momento da sua marca.
-                        </p>
-                    </div>
-                    <div class="store-stack">
-                        <article class="store-profile" data-reveal>
-                            <div class="store-profile-copy">
-                                <h3>Marca começando no Shopify</h3>
-                                <p>
-                                    Precisa lançar com estrutura profissional,
-                                    visual confiável e páginas bem planejadas.
-                                </p>
-                                <div class="tag-row">
-                                    <span>Lançamento</span><span>Estrutura</span
-                                    ><span>Primeira loja</span>
-                                </div>
-                            </div>
-                            <div
-                                class="store-mock mini-store"
-                                aria-hidden="true"
-                            ></div>
-                        </article>
-                        <article class="store-profile" data-reveal>
-                            <div class="store-profile-copy">
-                                <h3>Loja que já vende, mas converte pouco</h3>
-                                <p>
-                                    Precisa melhorar experiência, velocidade,
-                                    produto, carrinho e percepção de confiança.
-                                </p>
-                                <div class="tag-row">
-                                    <span>Conversão</span><span>UX</span
-                                    ><span>Performance</span>
-                                </div>
-                            </div>
-                            <div
-                                class="store-mock mini-product"
-                                aria-hidden="true"
-                            ></div>
-                        </article>
-                        <article class="store-profile" data-reveal>
-                            <div class="store-profile-copy">
-                                <h3>Marca presa em tema pronto</h3>
-                                <p>
-                                    Precisa sair do visual genérico e construir
-                                    uma experiência própria, alinhada ao
-                                    posicionamento.
-                                </p>
-                                <div class="tag-row">
-                                    <span>Personalização</span
-                                    ><span>Identidade</span><span>Liquid</span>
-                                </div>
-                            </div>
-                            <div
-                                class="store-mock mini-liquid"
-                                aria-hidden="true"
-                            ></div>
-                        </article>
-                        <article class="store-profile" data-reveal>
-                            <div class="store-profile-copy">
-                                <h3>E-commerce em crescimento</h3>
-                                <p>
-                                    Precisa de performance, integrações, seções
-                                    escaláveis e manutenção mais organizada.
-                                </p>
-                                <div class="tag-row">
-                                    <span>Escala</span><span>Integrações</span
-                                    ><span>Operação</span>
-                                </div>
-                            </div>
-                            <div
-                                class="store-mock mini-ops"
-                                aria-hidden="true"
-                            ></div>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
-            <img
-                class="section-divider"
-                src="assets/dividers/divider-light-to-dark.svg"
-                alt=""
-                aria-hidden="true"
-            />
-
             <section
-                class="audience section-dark"
-                aria-labelledby="audience-title"
+                class="store-types solutions-moments"
+                aria-labelledby="store-types-title"
             >
                 <div class="container">
-                    <div class="section-heading center on-dark" data-reveal>
-                        <span class="eyebrow">Fit de projeto</span>
-                        <h2 id="audience-title">
-                            Para quem a Cart &amp; Code é ideal
-                        </h2>
+                    <div class="solutions-moments__top" data-reveal>
+                        <div class="section-heading">
+                            <div
+                                class="solutions-moments__eyebrow"
+                                aria-label="Soluções para cada momento"
+                            >
+                                <span
+                                    class="solutions-moments__eyebrow-arrows"
+                                    aria-hidden="true"
+                                >
+                                    <i data-lucide="chevron-right"></i>
+                                    <i data-lucide="chevron-right"></i>
+                                    <i data-lucide="chevron-right"></i>
+                                </span>
+                                <span>Soluções para cada momento</span>
+                                <span
+                                    class="solutions-moments__eyebrow-arrows is-reverse"
+                                    aria-hidden="true"
+                                >
+                                    <i data-lucide="chevron-left"></i>
+                                    <i data-lucide="chevron-left"></i>
+                                    <i data-lucide="chevron-left"></i>
+                                </span>
+                            </div>
+                            <h2 id="store-types-title">
+                                Cada estágio da sua loja pede uma
+                                <span class="solutions-moments__title-mark"
+                                    >estrutura diferente</span
+                                >
+                            </h2>
+                        </div>
+                        <div
+                            class="solutions-moments__explore"
+                            aria-label="Explorar momentos da loja"
+                        >
+                            <span>Explorar</span>
+                            <div
+                                class="solutions-moments__progress"
+                                aria-hidden="true"
+                            >
+                                <span
+                                    class="solutions-moments__progress-fill"
+                                ></span>
+                            </div>
+                            <div class="solutions-moments__controls">
+                                <button
+                                    class="solutions-moments__control"
+                                    type="button"
+                                    data-moment-prev
+                                    aria-label="Card anterior"
+                                >
+                                    <i data-lucide="arrow-left"></i>
+                                </button>
+                                <span
+                                    class="solutions-moments__count"
+                                    aria-live="polite"
+                                    >01 / 05</span
+                                >
+                                <button
+                                    class="solutions-moments__control"
+                                    type="button"
+                                    data-moment-next
+                                    aria-label="Próximo card"
+                                >
+                                    <i data-lucide="arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="audience-grid">
-                        <article
-                            class="audience-card audience-positive"
-                            data-reveal
-                        >
-                            <div class="audience-title">
-                                <i data-lucide="check-circle-2"></i>
-                                <h3>Feito para você se</h3>
+                </div>
+
+                <div class="solutions-moments__viewport">
+                    <div class="solutions-moments__track">
+                        <article class="solutions-moments__card">
+                            <div class="solutions-moments__copy">
+                                <h3>Lançar uma loja com cara profissional</h3>
+                                <p>
+                                    Para transformar vendas por Instagram,
+                                    WhatsApp ou catálogo em uma loja clara,
+                                    confiável e pronta para receber pedidos.
+                                </p>
+                                <ul class="solutions-moments__list">
+                                    <li>
+                                        <i data-lucide="store"></i>
+                                        <span>Loja pronta para vender</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="layout-template"></i>
+                                        <span>Home estratégica</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="package-check"></i>
+                                        <span>Produto bem apresentado</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li>
-                                    Você quer lançar uma loja Shopify
-                                    profissional.
-                                </li>
-                                <li>
-                                    Sua loja atual parece genérica ou amadora.
-                                </li>
-                                <li>
-                                    Você vende por Instagram/WhatsApp e quer
-                                    estruturar um e-commerce.
-                                </li>
-                                <li>
-                                    Você precisa de uma loja rápida, responsiva
-                                    e fácil de editar.
-                                </li>
-                                <li>
-                                    Você quer uma experiência de compra mais
-                                    confiável e estratégica.
-                                </li>
-                            </ul>
+                            <div
+                                class="moment-visual moment-visual--launch"
+                                aria-hidden="true"
+                            >
+                                <div class="launch-window">
+                                    <div class="launch-window__bar">
+                                        <span></span><span></span><span></span>
+                                        <strong>Online</strong>
+                                    </div>
+                                    <div class="launch-hero">
+                                        <small>Nova coleção</small>
+                                        <strong>Loja ativa</strong>
+                                        <button type="button">Comprar</button>
+                                    </div>
+                                    <div class="launch-grid">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="launch-product">
+                                    <i data-lucide="package"></i>
+                                    <strong>Produto</strong>
+                                    <span>Pronto para venda</span>
+                                </div>
+                                <div class="launch-cart">
+                                    <i data-lucide="shopping-cart"></i>
+                                    <strong>Carrinho</strong>
+                                    <span>Checkout claro</span>
+                                </div>
+                            </div>
                         </article>
-                        <article
-                            class="audience-card audience-negative"
-                            data-reveal
-                        >
-                            <div class="audience-title">
-                                <i data-lucide="x-circle"></i>
-                                <h3>Não é para</h3>
+
+                        <article class="solutions-moments__card">
+                            <div class="solutions-moments__copy">
+                                <h3>
+                                    Melhorar uma loja que recebe visitas, mas
+                                    vende pouco
+                                </h3>
+                                <p>
+                                    Para lojas com tráfego e produtos, mas que
+                                    ainda perdem vendas por falta de clareza,
+                                    confiança ou fluidez.
+                                </p>
+                                <ul class="solutions-moments__list">
+                                    <li>
+                                        <i
+                                            data-lucide="mouse-pointer-click"
+                                        ></i>
+                                        <span
+                                            >Experiência de compra
+                                            otimizada</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <i data-lucide="shopping-bag"></i>
+                                        <span>Produto mais claro</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="shopping-cart"></i>
+                                        <span>Carrinho sem atrito</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li>
-                                    Quem quer apenas um template jogado no ar.
-                                </li>
-                                <li>
-                                    Quem busca o menor preço possível sem
-                                    estratégia.
-                                </li>
-                                <li>
-                                    Quem não quer investir em marca, produto e
-                                    experiência.
-                                </li>
-                                <li>
-                                    Quem procura apenas instalação de tema sem
-                                    personalização.
-                                </li>
-                                <li>
-                                    Quem não pretende tratar o e-commerce como
-                                    canal sério de venda.
-                                </li>
-                            </ul>
+                            <div
+                                class="moment-visual moment-visual--convert"
+                                aria-hidden="true"
+                            >
+                                <div class="funnel-card">
+                                    <div class="funnel-path">
+                                        <span>Visitante</span>
+                                        <i data-lucide="arrow-right"></i>
+                                        <span>Produto</span>
+                                        <i data-lucide="arrow-right"></i>
+                                        <span>Carrinho</span>
+                                        <i data-lucide="arrow-right"></i>
+                                        <span>Compra</span>
+                                    </div>
+                                    <div class="friction-row">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="conversion-meter">
+                                    <small>Conversão</small>
+                                    <strong>+38%</strong>
+                                    <div><span></span></div>
+                                </div>
+                                <div class="friction-note">
+                                    <i data-lucide="circle-check"></i>
+                                    Atritos reduzidos
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="solutions-moments__card">
+                            <div class="solutions-moments__copy">
+                                <h3>
+                                    Entender o que acontece dentro da operação
+                                </h3>
+                                <p>
+                                    Para acompanhar conversão, produtos,
+                                    tráfego, ticket médio e pontos de melhoria
+                                    sem depender de achismo.
+                                </p>
+                                <ul class="solutions-moments__list">
+                                    <li>
+                                        <i data-lucide="layout-dashboard"></i>
+                                        <span>Painel de métricas</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="trending-up"></i>
+                                        <span>Vendas e conversão</span>
+                                    </li>
+                                    <li>
+                                        <i
+                                            data-lucide="chart-no-axes-combined"
+                                        ></i>
+                                        <span>Produtos e tráfego</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="moment-visual moment-visual--measure"
+                                aria-hidden="true"
+                            >
+                                <div class="dashboard-shell">
+                                    <div class="dashboard-kpis">
+                                        <span
+                                            ><small>Pedidos</small
+                                            ><strong>184</strong></span
+                                        >
+                                        <span
+                                            ><small>Conversão</small
+                                            ><strong>3,8%</strong></span
+                                        >
+                                        <span
+                                            ><small>Ticket médio</small
+                                            ><strong>R$ 217</strong></span
+                                        >
+                                    </div>
+                                    <div class="dashboard-chart">
+                                        <span></span><span></span><span></span
+                                        ><span></span><span></span><span></span>
+                                    </div>
+                                    <div class="dashboard-best">
+                                        <i data-lucide="badge-check"></i>
+                                        Produto mais vendido identificado
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="solutions-moments__card">
+                            <div class="solutions-moments__copy">
+                                <h3>
+                                    Conectar ferramentas para operar com menos
+                                    esforço
+                                </h3>
+                                <p>
+                                    Para integrar pagamentos, frete, WhatsApp,
+                                    pixels, analytics e apps essenciais da
+                                    operação.
+                                </p>
+                                <ul class="solutions-moments__list">
+                                    <li>
+                                        <i data-lucide="plug"></i>
+                                        <span>Integrações essenciais</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="credit-card"></i>
+                                        <span>Pagamento e frete</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="message-circle"></i>
+                                        <span
+                                            >WhatsApp, pixels e analytics</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="moment-visual moment-visual--connect"
+                                aria-hidden="true"
+                            >
+                                <div class="integration-flow">
+                                    <div class="integration-flow__tools">
+                                        <span class="tool-card tool-card--pay"
+                                            ><i data-lucide="credit-card"></i
+                                            >Pagamento</span
+                                        >
+                                        <span class="tool-card tool-card--ship"
+                                            ><i data-lucide="truck"></i
+                                            >Frete</span
+                                        >
+                                        <span class="tool-card tool-card--chat"
+                                            ><i data-lucide="message-circle"></i
+                                            >WhatsApp</span
+                                        >
+                                        <span class="tool-card tool-card--data"
+                                            ><i data-lucide="bar-chart-3"></i
+                                            >Analytics</span
+                                        >
+                                    </div>
+                                    <span class="hub-core"
+                                        ><i data-lucide="store"></i>Loja</span
+                                    >
+                                    <div class="integration-flow__output">
+                                        <span
+                                            ><i data-lucide="plug"></i
+                                            >Apps</span
+                                        >
+                                        <strong>Operação conectada</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="solutions-moments__card">
+                            <div class="solutions-moments__copy">
+                                <h3>
+                                    Evoluir a loja sem refazer tudo a cada
+                                    campanha
+                                </h3>
+                                <p>
+                                    Para marcas que lançam coleções, rodam
+                                    promoções e precisam testar melhorias com
+                                    velocidade, sem depender de ajustes
+                                    improvisados no tema.
+                                </p>
+                                <ul class="solutions-moments__list">
+                                    <li>
+                                        <i data-lucide="megaphone"></i>
+                                        <span>Páginas para campanhas</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="panel-top"></i>
+                                        <span
+                                            >Seções prontas para combinar</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <i data-lucide="flask-conical"></i>
+                                        <span>Testes e variações rápidas</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="moment-visual moment-visual--scale"
+                                aria-hidden="true"
+                            >
+                                <div class="campaign-preview">
+                                    <div class="campaign-preview__bar">
+                                        <span></span><span></span><span></span>
+                                        <strong>Campanha ativa</strong>
+                                    </div>
+                                    <div class="campaign-preview__hero">
+                                        <small>Lançamento</small>
+                                        <strong>Nova coleção</strong>
+                                        <span>CTA editável</span>
+                                    </div>
+                                    <div class="campaign-preview__sections">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="experiment-card">
+                                    <small>Teste A/B</small>
+                                    <div class="experiment-card__row">
+                                        <span>A</span>
+                                        <strong>Produto</strong>
+                                        <em>+12%</em>
+                                    </div>
+                                    <div class="experiment-card__row is-muted">
+                                        <span>B</span>
+                                        <strong>Banner</strong>
+                                        <em>+6%</em>
+                                    </div>
+                                </div>
+                                <div class="campaign-timeline">
+                                    <span>Landing</span>
+                                    <span>Oferta</span>
+                                    <span>Teste</span>
+                                    <span>Escala</span>
+                                </div>
+                            </div>
                         </article>
                     </div>
                 </div>
             </section>
 
-            <img
-                class="section-divider"
-                src="assets/dividers/divider-dark-to-light.svg"
-                alt=""
+            <div
+                class="section-divider-wrap section-divider-moments-out"
                 aria-hidden="true"
-            />
+            >
+                <img
+                    class="section-divider"
+                    src="assets/dividers/divider-light-to-dark.svg"
+                    alt=""
+                />
+            </div>
 
             <section
-                class="projects section-light"
+                class="project-showcase section-dark"
                 id="projetos"
-                aria-labelledby="projects-title"
+                aria-labelledby="project-showcase-title"
             >
                 <div class="container">
-                    <div class="section-heading" data-reveal>
-                        <span class="eyebrow">Portfólio conceitual</span>
-                        <h2 id="projects-title">
-                            Projetos e conceitos de e-commerce
+                    <div
+                        class="section-heading center on-dark project-showcase__head"
+                        data-reveal
+                    >
+                        <div
+                            class="process-badge"
+                            aria-label="Projetos Cart & Code"
+                        >
+                            <span
+                                class="process-badge-arrows"
+                                aria-hidden="true"
+                            >
+                                <i data-lucide="chevron-right"></i>
+                                <i data-lucide="chevron-right"></i>
+                                <i data-lucide="chevron-right"></i>
+                            </span>
+                            <span>Projetos Cart &amp; Code</span>
+                            <span
+                                class="process-badge-arrows is-reverse"
+                                aria-hidden="true"
+                            >
+                                <i data-lucide="chevron-left"></i>
+                                <i data-lucide="chevron-left"></i>
+                                <i data-lucide="chevron-left"></i>
+                            </span>
+                        </div>
+                        <h2 id="project-showcase-title">
+                            E-commerces pensados para vender com
+                            <span class="project-showcase__title-mark"
+                                >mais clareza</span
+                            >
                         </h2>
                         <p>
-                            Estudos visuais e projetos conceituais criados para
-                            demonstrar estrutura, experiência e potencial de
-                            conversão em Shopify.
+                            Conceitos criados para mostrar como design, produto
+                            e jornada de compra podem transformar uma loja comum
+                            em uma experiência mais profissional.
                         </p>
                     </div>
-                    <div
-                        class="project-controls"
-                        aria-label="Controles do carrossel de projetos"
-                    >
-                        <button
-                            class="icon-button"
-                            type="button"
-                            aria-label="Projeto anterior"
-                            data-project-prev
+
+                    <div class="project-showcase__grid">
+                        <article
+                            class="project-showcase__card project-showcase__card--caosumista"
+                            data-reveal
                         >
-                            <i data-lucide="arrow-left"></i>
-                        </button>
-                        <button
-                            class="icon-button"
-                            type="button"
-                            aria-label="Próximo projeto"
-                            data-project-next
+                            <div class="project-showcase__visual">
+                                <img
+                                    src="assets/images/caosumista-logo.svg"
+                                    alt="Cãosumista"
+                                    width="1056"
+                                    height="269"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="project-showcase__body">
+                                <h3>Cãosumista — Pet shop</h3>
+                                <p>
+                                    Loja pet pensada para compras recorrentes,
+                                    com categorias objetivas, produto fácil de
+                                    entender e uma jornada que deixa reposição e
+                                    cuidado mais simples.
+                                </p>
+                                <div class="project-showcase__tags">
+                                    <span>Pet shop</span>
+                                    <span>Vitrine</span>
+                                    <span>Recorrência</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article
+                            class="project-showcase__card project-showcase__card--legy"
+                            data-reveal
                         >
-                            <i data-lucide="arrow-right"></i>
-                        </button>
-                    </div>
-                    <div class="project-track" data-project-track>
-                        <article class="project-card" data-reveal>
-                            <img
-                                src="assets/images/project-legy-preview.svg"
-                                alt="Preview conceitual Legy Moda Fitness"
-                                width="900"
-                                height="620"
-                                loading="lazy"
-                            />
-                            <div>
+                            <div class="project-showcase__visual">
+                                <img
+                                    src="assets/images/legy-logo.svg"
+                                    alt="Legy"
+                                    width="1056"
+                                    height="269"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="project-showcase__body">
                                 <h3>Legy — Moda fitness</h3>
                                 <p>
-                                    E-commerce conceitual de leggings com foco
-                                    em produto, estilo, variações e experiência
-                                    mobile.
+                                    Vitrine fitness com produto em evidência,
+                                    variações fáceis de comparar e uma
+                                    experiência mobile pensada para levar a
+                                    cliente da escolha ao carrinho com clareza.
                                 </p>
-                                <div class="tag-row">
-                                    <span>Moda fitness</span><span>Produto</span
-                                    ><span>Conversão</span>
+                                <div class="project-showcase__tags">
+                                    <span>Produto</span>
+                                    <span>Mobile</span>
+                                    <span>Conversão</span>
                                 </div>
                             </div>
                         </article>
-                        <article class="project-card" data-reveal>
-                            <img
-                                src="assets/images/project-store-preview.svg"
-                                alt="Preview conceitual Cart & Code Store"
-                                width="900"
-                                height="620"
-                                loading="lazy"
-                            />
-                            <div>
-                                <h3>Cart &amp; Code Store — Shopify concept</h3>
-                                <p>
-                                    Demonstração de loja com home, página de
-                                    produto, carrinho e checkout visualmente
-                                    integrados.
-                                </p>
-                                <div class="tag-row">
-                                    <span>Shopify</span><span>Liquid</span
-                                    ><span>UX/UI</span>
-                                </div>
+
+                        <article
+                            class="project-showcase__card project-showcase__card--brecho"
+                            data-reveal
+                        >
+                            <div class="project-showcase__visual">
+                                <img
+                                    src="assets/images/brecho-de-nene-logo.svg"
+                                    alt="Brechô de Nenê"
+                                    width="1056"
+                                    height="269"
+                                    loading="lazy"
+                                />
                             </div>
-                        </article>
-                        <article class="project-card" data-reveal>
-                            <img
-                                src="assets/images/beauty-commerce-preview.svg"
-                                alt="Preview conceitual Beauty Commerce"
-                                width="900"
-                                height="620"
-                                loading="lazy"
-                            />
-                            <div>
-                                <h3>Beauty Commerce — Cosméticos</h3>
+                            <div class="project-showcase__body">
+                                <h3>Brechô de Nenê</h3>
                                 <p>
-                                    Conceito de loja premium para marcas de
-                                    beleza, com foco em desejo, confiança e
-                                    apresentação de produto.
+                                    E-commerce para peças infantis selecionadas,
+                                    com navegação acolhedora, confiança visual
+                                    premium e produto organizado por fase,
+                                    tamanho e momento de uso.
                                 </p>
-                                <div class="tag-row">
-                                    <span>Beleza</span><span>Branding</span
-                                    ><span>Mobile</span>
+                                <div class="project-showcase__tags">
+                                    <span>Infantil</span>
+                                    <span>Curadoria</span>
+                                    <span>Confiança</span>
                                 </div>
                             </div>
                         </article>
                     </div>
                 </div>
             </section>
+
+            <div
+                class="section-divider-wrap section-divider-process-out"
+                aria-hidden="true"
+            >
+                <img
+                    class="section-divider"
+                    src="assets/dividers/divider-dark-to-light.svg"
+                    alt=""
+                />
+            </div>
 
             <section class="plans" id="planos" aria-labelledby="plans-title">
                 <div class="container">
@@ -1490,13 +1752,6 @@
                     </div>
                 </div>
             </section>
-
-            <img
-                class="section-divider"
-                src="assets/dividers/divider-soft-grid.svg"
-                alt=""
-                aria-hidden="true"
-            />
 
             <section
                 class="faq section-light"
@@ -1692,7 +1947,7 @@
             <div class="container footer-grid">
                 <div class="footer-brand">
                     <img
-                        src="assets/logos/cartcode-logo-light.svg"
+                        src="assets/logos/cartcode-logo-dark.svg"
                         alt="Cart & Code"
                         width="190"
                         height="38"

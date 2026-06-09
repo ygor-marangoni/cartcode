@@ -1,7 +1,7 @@
 import { initHeader } from "./sections/header.js";
 import { initHeroAnimation } from "./sections/hero-animation.js";
 import { initProcess } from "./sections/process.js";
-import { initProjects } from "./sections/projects.js";
+import { initStoreTypes } from "./sections/store-types.js";
 import { initFaq } from "./sections/faq.js";
 import { initScrollReveal } from "./sections/scroll-reveal.js";
 
@@ -18,7 +18,7 @@ function init() {
   initHeader();
   initHeroAnimation();
   initProcess();
-  initProjects();
+  initStoreTypes();
   initFaq();
   initScrollReveal();
 }

@@ -1,0 +1,17 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="42" fill="#F7FDFE"/>
+  <rect x="70" y="72" width="760" height="476" rx="34" fill="#FBFDFA" stroke="#DCEACB"/>
+  <rect x="112" y="124" width="268" height="332" rx="32" fill="#E6F7CC"/>
+  <circle cx="246" cy="248" r="80" fill="#A9D063"/>
+  <circle cx="214" cy="220" r="22" fill="#476135"/>
+  <circle cx="292" cy="220" r="22" fill="#476135"/>
+  <circle cx="224" cy="266" r="14" fill="#243917"/>
+  <circle cx="276" cy="266" r="14" fill="#243917"/>
+  <path d="M230 304c28 22 64 22 92 0" stroke="#243917" stroke-width="16" stroke-linecap="round"/>
+  <rect x="430" y="132" width="332" height="70" rx="18" fill="#F1F8E9"/>
+  <text x="462" y="177" fill="#0C1212" font-family="Arial, sans-serif" font-size="28" font-weight="700">Cãosumista</text>
+  <rect x="430" y="238" width="140" height="140" rx="24" fill="#FFFFFF" stroke="#DCEACB"/>
+  <rect x="604" y="238" width="140" height="140" rx="24" fill="#FFFFFF" stroke="#DCEACB"/>
+  <rect x="462" y="408" width="218" height="54" rx="27" fill="#A9D063"/>
+  <text x="505" y="442" fill="#0C1212" font-family="Arial, sans-serif" font-size="18" font-weight="700">Comprar para pet</text>
+</svg>
