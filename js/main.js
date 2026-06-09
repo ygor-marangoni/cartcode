@@ -3,6 +3,7 @@ import { initHeroAnimation } from "./sections/hero-animation.js";
 import { initProcess } from "./sections/process.js";
 import { initStoreTypes } from "./sections/store-types.js";
 import { initFaq } from "./sections/faq.js";
+import { initFinalCta } from "./sections/final-cta.js";
 import { initScrollReveal } from "./sections/scroll-reveal.js";
 
 function initIcons() {
@@ -20,6 +21,7 @@ function init() {
   initProcess();
   initStoreTypes();
   initFaq();
+  initFinalCta();
   initScrollReveal();
 }
 

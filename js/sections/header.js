@@ -61,11 +61,19 @@ export function initHeader() {
   };
 
   const updateActive = () => {
-    let current = sections[0]?.id;
+    const headerOffset = 140;
+    const currentY = window.scrollY + headerOffset;
+    let current = null;
+
     for (const section of sections) {
-      const rect = section.getBoundingClientRect();
-      if (rect.top <= 140) current = section.id;
+      const top = section.offsetTop;
+      const bottom = top + section.offsetHeight;
+
+      if (currentY >= top && currentY < bottom) {
+        current = section.id;
+      }
     }
+
     navLinks.forEach((link) => {
       link.classList.toggle("is-active", link.getAttribute("href") === `#${current}`);
     });

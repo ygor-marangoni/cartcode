@@ -1,25 +1,33 @@
 .site-footer {
-  padding: 72px 0 28px;
-  background: var(--dark-deep);
+  position: relative;
+  margin-top: 18px;
+  padding: 0 0 34px;
+  background: transparent;
   color: var(--soft-white);
+}
+
+.footer-shell {
+  padding-top: 38px;
+  border-top: 1px solid rgba(169, 208, 99, 0.14);
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr repeat(4, 1fr);
+  grid-template-columns: minmax(0, 1.2fr) repeat(3, minmax(160px, 0.72fr));
   gap: 34px;
+  align-items: start;
 }
 
 .footer-brand img {
   width: 190px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .footer-brand p {
-  max-width: 300px;
+  max-width: 320px;
   margin: 0;
-  color: rgba(251, 253, 250, 0.62);
+  color: rgba(247, 253, 254, 0.62);
   font-size: 1rem;
   line-height: 1.72;
 }
@@ -27,21 +35,22 @@
 .site-footer nav {
   display: grid;
   align-content: start;
-  gap: 11px;
+  gap: 12px;
 }
 
 .site-footer h2 {
   margin: 0 0 8px;
-  color: var(--lime-light);
+  color: rgba(247, 253, 254, 0.48);
   font-size: 0.78rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .site-footer a {
-  color: rgba(251, 253, 250, 0.64);
-  font-size: 0.94rem;
+  width: fit-content;
+  color: rgba(247, 253, 254, 0.72);
+  font-size: 0.96rem;
   line-height: 1.5;
   transition: color 0.2s var(--ease);
 }
@@ -51,16 +60,30 @@
 }
 
 .footer-bottom {
-  margin-top: 46px;
-  padding-top: 24px;
-  border-top: 1px solid rgba(251, 253, 250, 0.1);
-  color: rgba(251, 253, 250, 0.52);
-  font-size: 0.86rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 42px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(169, 208, 99, 0.1);
+  color: rgba(247, 253, 254, 0.52);
+  font-size: 0.88rem;
 }
 
-@media (max-width: 960px) {
+.footer-merco {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.footer-merco strong {
+  color: var(--lime-light);
+  font-weight: 600;
+}
+
+@media (max-width: 920px) {
   .footer-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 
   .footer-brand {
@@ -70,10 +93,21 @@
 
 @media (max-width: 560px) {
   .site-footer {
-    padding-top: 56px;
+    padding-bottom: 26px;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-merco {
+    text-align: left;
+    white-space: normal;
   }
 }
