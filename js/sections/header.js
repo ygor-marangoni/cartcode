@@ -7,6 +7,7 @@ export function initHeader() {
   const sections = [...navLinks]
     .map((link) => document.querySelector(link.getAttribute("href")))
     .filter(Boolean);
+  const solutionsMomentsSection = document.querySelector(".store-types");
 
   if (!header) return;
 
@@ -64,6 +65,15 @@ export function initHeader() {
     const headerOffset = 140;
     const currentY = window.scrollY + headerOffset;
     let current = null;
+
+    if (solutionsMomentsSection) {
+      const top = solutionsMomentsSection.offsetTop;
+      const bottom = top + solutionsMomentsSection.offsetHeight;
+
+      if (currentY >= top && currentY < bottom) {
+        current = "solucoes";
+      }
+    }
 
     for (const section of sections) {
       const top = section.offsetTop;
